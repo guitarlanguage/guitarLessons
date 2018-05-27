@@ -1,0 +1,43 @@
+{
+  "name": "guitarlessons",
+  "version": "1.0.0",
+  "description": "a webpage for guitar lessons",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guitarlanguage/guitarLessons.git"
+  },
+  "keywords": [
+    "tom",
+    "lachance",
+    "guitar",
+    "language",
+    "series",
+    "432",
+    "music"
+  ],
+  "author": "Tom LaChance",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guitarlanguage/guitarLessons/issues"
+  },
+  "homepage": "https://github.com/guitarlanguage/guitarLessons#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.1.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
